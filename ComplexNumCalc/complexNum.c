@@ -4,7 +4,7 @@
 
 #define Pi 3.14159265
 
-double atan2(double y, double x){
+double atan2(double y, double x){          //Function that can find primary arg
 	
 	if(x>0){
 		return atan(y/x);
@@ -23,14 +23,14 @@ double atan2(double y, double x){
 	}
 }
 
-double mag(double x, double y){
+double mag(double x, double y){          	//Magnitude
 	
 	return sqrt(x*x + y*y);
 }
 
 
 
-int main(void)
+int main(void)								//Test Program
 {
 	 double y,x,r,theta;
 	 
